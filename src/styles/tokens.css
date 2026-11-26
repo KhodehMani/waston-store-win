@@ -1,0 +1,69 @@
+/* WASTON V1.0.1 design tokens (from the design-system PDF). */
+:root {
+  --bg: #F4F1EA;
+  --surface: #FFFFFF;
+  --primary: #172B4D;
+  --on-primary: #FFFFFF;
+  --secondary: #19A7A0;
+  --on-secondary: #FFFFFF;
+  --accent: #D96C55;
+  --border: #E5E0D7;
+  --muted: #64748B;
+  --text: #263445;
+  --topbar: #D96C55;
+  --overlay: rgba(16, 27, 43, .45);
+
+  --tone-rose: #F6E8E3;
+  --tone-mint: #E5F2F0;
+  --tone-blue: #E8EDF4;
+  --tone-beige: #EFEBE3;
+  --hero-dark: #172B4D;
+  --hero-dark-inner: #233A5E;
+  --input-bg: #F4F1EA;
+
+  --radius-sm: 8px;
+  --radius: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --shadow: 0 1px 2px rgba(23, 43, 77, .04);
+  --shadow-lg: 0 12px 32px rgba(23, 43, 77, .14);
+  --container: 1200px;
+  --gutter: 24px;
+  --font: "Vazirmatn", "IRANSansX", Tahoma, sans-serif;
+
+  --fs-display: 48px;
+  --fs-h1: 38px;
+  --fs-h2: 26px;
+  --fs-title: 15px;
+  --fs-body: 16px;
+  --fs-sm: 13px;
+  --fs-xs: 11px;
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --bg: #101B2B;
+  --surface: #1B2B40;
+  --primary: #F4F1EA;
+  --on-primary: #101B2B;
+  --secondary: #25B9AE;
+  --on-secondary: #101B2B;
+  --accent: #E58A70;
+  --border: #304158;
+  --muted: #B6C2D0;
+  --text: #E5EAF0;
+  --topbar: #E58A70;
+  --tone-rose: #3B2B2E;
+  --tone-mint: #1E3D44;
+  --tone-blue: #22344D;
+  --tone-beige: #2A3442;
+  --hero-dark: #1B2B40;
+  --hero-dark-inner: #23395A;
+  --input-bg: #101B2B;
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, .4);
+  color-scheme: dark;
+}
+
+@media (max-width: 768px) {
+  :root { --fs-display: 30px; --fs-h1: 26px; --fs-h2: 19px; --fs-body: 14px; --gutter: 16px; }
+}
